@@ -1,0 +1,137 @@
+Assign Case to Omni-Test failed: 2024/03/12, 10:30:00
+Lodge Case-Test failed: 2024/04/22, 11:16:46
+Lodge Case-Test failed: 2024/04/22, 11:17:38
+Lodge Case-Test failed: 2024/04/22, 11:18:58
+Lodge Case-Test failed: 2024/04/22, 11:21:17
+Lodge Case-Test failed: 2024/04/22, 11:22:00
+Lodge Case-Test failed: 2024/04/22, 11:28:52
+Lodge Case-Test failed: 2024/04/22, 11:32:14
+Lodge Case-Test failed: 2024/04/22, 11:33:52
+Lodge Case-Test failed: 2024/04/22, 12:03:25
+Lodge Case-Test failed: 2024/04/22, 12:22:05
+Lodge Case-Test failed: 2024/04/22, 12:31:43
+Lodge Case-Test failed: 2024/04/22, 12:34:02
+Lodge Case-Test failed: 2024/04/22, 12:36:23
+Lodge Case-Test failed: 2024/04/22, 12:38:13
+Lodge Case-Test failed: 2024/04/22, 12:42:08
+Lodge Case-Test failed: 2024/04/22, 12:53:21
+Lodge Case-Test failed: 2024/04/22, 12:57:20
+Lodge Case-Test failed: 2024/04/22, 16:40:31
+Lodge Case-Test failed: 2024/04/22, 16:44:28
+Lodge Case-Test failed: 2024/04/23, 09:30:03
+Lodge Case-Test failed: 2024/04/23, 09:34:38
+Lodge Case-Test failed: 2024/04/23, 09:40:36
+Lodge Case-Test failed: 2024/04/23, 09:59:55
+Lodge Case-Test failed: 2024/04/23, 10:01:50
+Lodge Case-Test failed: 2024/04/23, 10:04:41
+Lodge Case-Test failed: 2024/04/23, 14:08:08
+Lodge Case-Test failed: 2024/04/24, 10:06:38
+Lodge Case-Test failed: 2024/04/24, 10:21:29
+Lodge Case-Test failed: 2024/04/24, 10:23:10
+Lodge Case-Test failed: 2024/04/24, 11:52:18
+Assign Case to Omni-Test failed: 2024/04/24, 12:01:01
+Create A Case-Test failed: 2024/04/25, 10:42:50
+Create A Case-Test failed: 2024/04/25, 10:43:03
+Create A Case-Test failed: 2024/04/25, 10:48:18
+Create A Case-Test failed: 2024/04/25, 10:49:17
+Create A Case-Test failed: 2024/04/25, 10:55:12
+Create A Case-Test failed: 2024/04/25, 10:56:13
+Lodge Case-Test failed: 2024/04/25, 11:03:19
+Lodge Case-Test failed: 2024/04/25, 11:06:23
+Lodge Case-Test failed: 2024/04/25, 11:11:02
+Lodge Case-Test failed: 2024/04/25, 11:12:48
+Create A Case-Test failed: 2024/04/25, 11:29:12
+Create A Case-Test failed: 2024/04/25, 11:36:51
+Create A Case-Test failed: 2024/04/25, 11:38:25
+Create A Case-Test failed: 2024/04/25, 11:42:00
+Create A Case-Test failed: 2024/04/25, 11:46:49
+Lodge Case-Test failed: 2024/04/26, 06:06:26
+Lodge Case-Test failed: 2024/04/26, 06:07:49
+Lodge Case-Test failed: 2024/04/26, 06:32:13
+Lodge Case-Test failed: 2024/04/26, 06:33:24
+Lodge Case-Test failed: 2024/04/26, 06:39:40
+Lodge Case-Test failed: 2024/04/26, 06:41:39
+Lodge Case-Test failed: 2024/04/26, 06:45:01
+Lodge Case-Test failed: 2024/04/26, 06:46:01
+Lodge Case-Test failed: 2024/04/26, 06:52:44
+Lodge Case-Test failed: 2024/04/26, 06:56:53
+Lodge Case-Test failed: 2024/04/26, 06:59:05
+Lodge Case-Test failed: 2024/04/26, 07:04:29
+Lodge Case-Test failed: 2024/04/26, 07:05:23
+Lodge Case-Test failed: 2024/04/26, 07:08:39
+Lodge Case-Test failed: 2024/04/26, 07:10:07
+Lodge Case-Test failed: 2024/04/26, 07:12:15
+Lodge Case-Test failed: 2024/04/26, 07:21:49
+Lodge Case-Test failed: 2024/04/26, 07:24:26
+Lodge Case-Test failed: 2024/04/26, 07:31:10
+Lodge Case-Test failed: 2024/04/26, 07:32:43
+Lodge Case-Test failed: 2024/04/26, 07:33:36
+Lodge Case-Test failed: 2024/04/26, 07:35:24
+Lodge Case-Test failed: 2024/04/26, 07:48:05
+Lodge Case-Test failed: 2024/04/26, 07:49:52
+Lodge Case-Test failed: 2024/04/26, 07:51:16
+Lodge Case-Test failed: 2024/05/03, 09:03:58
+Lodge Case-Test failed: 2024/05/03, 09:21:00
+Lodge Case-Test failed: 2024/05/03, 09:40:56
+Lodge Case-Test failed: 2024/05/03, 10:33:18
+Create A Case-Test failed: 2024/05/03, 10:37:13
+Lodge Case-Test failed: 2024/05/03, 10:38:32
+Lodge Case-Test failed: 2024/05/03, 10:43:11
+Create A Case-Test failed: 2024/05/03, 10:44:30
+Lodge Case-Test failed: 2024/05/03, 10:45:20
+Lodge Case-Test failed: 2024/05/03, 11:08:00
+Lodge Case-Test failed: 2024/05/03, 11:08:54
+Lodge Case-Test failed: 2024/05/03, 11:12:21
+Lodge Case-Test failed: 2024/05/03, 11:13:28
+Lodge Case-Test failed: 2024/05/03, 11:16:09
+Create A Case-Test failed: 2024/05/03, 12:04:37
+Create A Case-Test failed: 2024/05/05, 19:11:41
+Create A Case-Test failed: 2024/05/05, 19:12:40
+Lodge Case-Test failed: 2024/05/05, 19:26:27
+Lodge Case-Test failed: 2024/05/05, 19:27:12
+Lodge Case-Test failed: 2024/05/05, 19:29:03
+Lodge Case-Test failed: 2024/05/05, 19:32:00
+Lodge Case-Test failed: 2024/05/05, 19:32:25
+Lodge Case-Test failed: 2024/05/05, 19:33:06
+Lodge Case-Test failed: 2024/05/05, 19:33:53
+Lodge Case-Test failed: 2024/05/05, 19:37:23
+Lodge Case-Test failed: 2024/05/05, 19:40:39
+Lodge Case-Test failed: 2024/05/05, 19:43:22
+Lodge Case-Test failed: 2024/05/05, 19:47:07
+Lodge Case-Test failed: 2024/05/05, 19:53:34
+Lodge Case-Test failed: 2024/05/05, 19:56:06
+Lodge Case-Test failed: 2024/05/05, 20:03:06
+Lodge Case-Test failed: 2024/05/05, 20:12:22
+Lodge Case-Test failed: 2024/05/05, 20:15:33
+Lodge Case-Test failed: 2024/05/05, 20:18:25
+Lodge Case-Test failed: 2024/05/05, 20:25:56
+Lodge Case-Test failed: 2024/05/05, 20:29:57
+Lodge Case-Test failed: 2024/05/05, 20:32:21
+Lodge Case-Test failed: 2024/05/07, 08:45:35
+Lodge Case-Test failed: 2024/05/07, 08:50:14
+Lodge Case-Test failed: 2024/05/07, 08:50:38
+Lodge Case-Test failed: 2024/05/07, 08:52:13
+Assign Case to Omni-Test failed: 2024/05/07, 09:03:48
+Assign Case to Omni-Test failed: 2024/05/07, 09:07:50
+Assign Case to Omni-Test failed: 2024/05/07, 09:12:14
+Assign Case to Omni-Test failed: 2024/05/07, 09:13:55
+Create A Case-Test failed: 2024/05/07, 10:41:10
+Create A Case-Test failed: 2024/05/07, 10:49:37
+Create A Case-Test failed: 2024/05/07, 10:53:40
+Create A Case-Test failed: 2024/05/07, 13:23:55
+Create A Case-Test failed: 2024/05/07, 14:03:16
+Create A Case-Test failed: 2024/05/07, 14:09:16
+Lodge Case-Test failed: 2024/05/07, 14:13:42
+Lodge Case-Test failed: 2024/05/08, 10:45:28
+Lodge Case-Test failed: 2024/05/08, 10:45:52
+Lodge Case-Test failed: 2024/05/08, 10:47:17
+Lodge Case-Test failed: 2024/05/08, 10:48:22
+Lodge Case-Test failed: 2024/05/08, 10:49:23
+Lodge Case-Test failed: 2024/05/08, 10:52:58
+Lodge Case-Test failed: 2024/05/08, 10:53:48
+Lodge Case-Test failed: 2024/05/08, 10:56:00
+Lodge Case-Test failed: 2024/05/08, 11:27:36
+Lodge Case-Test failed: 2024/05/08, 11:28:36
+Lodge Case-Test failed: 2024/05/08, 11:31:14
+Lodge Case-Test failed: 2024/05/08, 11:47:29
+Lodge Case-Test failed: 2024/05/08, 12:13:18
