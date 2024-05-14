@@ -23,11 +23,7 @@ await page.goto(process.env.HOST);
   await page.getByLabel('Password').fill(process.env.PASSWORD);
   await page.getByRole('button', { name: 'Log In to Sandbox' }).click();
   fs.appendFileSync('success_log.txt', 'Log In-Test succeeded: ' + new Date().toLocaleString() + '\n');
-  await page.goto('https://capitecretail0223--devint.sandbox.lightning.force.com/lightning/r/User/0052600000BuL7hAAF/view');
-  await page.getByRole('tab', { name: 'User Claims Administrator' }).click();
-  await page.getByRole('button', { name: 'User Detail' }).click();
-  await page.frameLocator('iframe[title="User: Claims Administrator ~ Salesforce - Unlimited Edition"]').getByRole('row', { name: 'User Detail Edit Sharing Reset Password Login Freeze View Summary' }).getByTitle('Login').click();
-  
+  await page.goto(process.env.LIGHTNING_HOST);
   //create a case
   await page.getByRole('link', { name: 'Cases' }).click();
   await page.getByRole('link', { name: process.env.CASE }).click();
@@ -35,14 +31,14 @@ await page.goto(process.env.HOST);
   await page.getByPlaceholder('Search Accounts...').click();
   await page.getByPlaceholder('Search Accounts...').fill('joh');
   await page.getByRole('option', { name: process.env.ACC_NAME }).click();
-  //await page.getByRole('button', { name: 'Save'}).click();
-  await page.waitForTimeout(5000);
-  await page.getByRole('combobox', { name: 'Product Type' }).click();
+ // await page.getByRole('button', { name: 'Save'}).click();
+ // await page.waitForTimeout(5000);
+ await page.getByRole('combobox', { name: 'Product Type' }).click();
   await page.getByRole('option', { name: 'Credit Life' }).click();
   await page.getByRole('combobox', { name: 'Case Type' }).click();;
-  await page.getByRole('option', { name: 'Unemployment/ITEI' }).click();
-  await page.getByRole('combobox', { name: 'Sub Type' ,exact :true}).click();
-  await page.getByRole('option', { name: 'Retrenchment' }).click();
+  await page.getByRole('option', { name: 'Death' }).click();
+  await page.getByRole('combobox', { name: 'Sub Type' }).click();
+  await page.getByRole('option', { name: 'Natural' }).click();
   await page.getByRole('button', { name: 'Save', exact: true }).click();
   await page.waitForTimeout(5000);
   //Classify case
@@ -62,8 +58,8 @@ await page.getByRole('button', { name: 'Edit Document Type' }).click();
   await page.getByPlaceholder('Search Document Types...').fill('retrenchment');
   await page.getByRole('option', { name: 'Search Document Types "retrenchment" in Document Types' }).click();
   await page.getByRole('link', { name: 'Retrenchment Letter' }).click();
-  await page.getByText('Status*New').click();
-  await page.getByRole('option', { name: 'Verified' }).click();
+  await page.getByRole('button', { name: 'New', exact: true }).click();
+  await page.getByRole('menuitemradio', { name: 'Verified' }).click();
   await page.getByRole('button', { name: 'Save', exact: true }).click();
   await page.getByRole('button', { name: 'Close Retrenchment Letter' }).click();
   await page.waitForTimeout(4000);
@@ -80,7 +76,7 @@ await page.getByRole('button', { name: 'Edit Document Type' }).click();
   
   await page.getByRole('tab', { name: 'Details' }).click();
   await page.getByRole('button', { name: 'Edit Sub Type Reason' }).click();
-  await page.getByRole('combobox', { name: 'Sub Type Reason' }).click();;
+  await page.getByLabel('Sub Type Reason - Current Selection: --None--').click();
   await page.getByRole('option', { name: 'New technology' }).click();
   await page.getByRole('button', { name: 'Save' }).click();
   await page.waitForTimeout(3000);
@@ -91,7 +87,7 @@ await page.getByRole('button', { name: 'Edit Document Type' }).click();
   await page.getByRole('button', { name: 'Change Owner' }).click();
   await page.getByPlaceholder('Search Users...').click();
   await page.getByPlaceholder('Search Users...').fill('bu');
-  await page.getByRole('option', { name: 'User Claims Administrator' }).click();//claims admin
+  await page.getByRole('option', { name: 'User Busisiwe Dube' }).click();
   await page.getByRole('button', { name: 'Change Owner' }).click();
 
   await page.getByRole('button', { name: 'Get Obligations' }).click();
@@ -127,4 +123,3 @@ await browser.close();
 
 
 })();
-

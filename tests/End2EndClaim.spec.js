@@ -23,25 +23,19 @@ await page.goto(process.env.HOST);
   await page.getByLabel('Password').fill(process.env.PASSWORD);
   await page.getByRole('button', { name: 'Log In to Sandbox' }).click();
   fs.appendFileSync('success_log.txt', 'Log In-Test succeeded: ' + new Date().toLocaleString() + '\n');
-  await page.goto('https://capitecretail0223--devint.sandbox.lightning.force.com/lightning/r/User/0052600000BuL7hAAF/view');
-  await page.getByRole('tab', { name: 'User Claims Administrator' }).click();
-  await page.getByRole('button', { name: 'User Detail' }).click();
-  await page.frameLocator('iframe[title="User: Claims Administrator ~ Salesforce - Unlimited Edition"]').getByRole('row', { name: 'User Detail Edit Sharing Reset Password Login Freeze View Summary' }).getByTitle('Login').click();
-  
+  await page.goto(process.env.LIGHTNING_HOST);
   //create a case
   await page.getByRole('link', { name: 'Cases' }).click();
   await page.getByRole('link', { name: process.env.CASE }).click();
   await page.getByRole('button', { name: 'Edit Account Name' }).click();
   await page.getByPlaceholder('Search Accounts...').click();
-  await page.getByPlaceholder('Search Accounts...').fill('joh');
-  await page.getByRole('option', { name: process.env.ACC_NAME }).click();
-  //await page.getByRole('button', { name: 'Save'}).click();
-  await page.waitForTimeout(5000);
-  await page.getByRole('combobox', { name: 'Product Type' }).click();
+  await page.getByPlaceholder('Search Accounts...').fill('de');
+  await page.getByRole('option', { name: 'DEVAMO NAME SURNAMESEA 0880000000' }).click();
+  await page.getByLabel('Product Type - Current Selection: Unclassified/Unidentified').click();
   await page.getByRole('option', { name: 'Credit Life' }).click();
-  await page.getByRole('combobox', { name: 'Case Type' }).click();;
+  await page.getByLabel('Case Type - Current Selection: Unclassified/Unidentified').click();
   await page.getByRole('option', { name: 'Unemployment/ITEI' }).click();
-  await page.getByRole('combobox', { name: 'Sub Type' ,exact :true}).click();
+  await page.getByLabel('Sub Type - Current Selection: --None--').click();
   await page.getByRole('option', { name: 'Retrenchment' }).click();
   await page.getByRole('button', { name: 'Save', exact: true }).click();
   await page.waitForTimeout(5000);
@@ -62,8 +56,8 @@ await page.getByRole('button', { name: 'Edit Document Type' }).click();
   await page.getByPlaceholder('Search Document Types...').fill('retrenchment');
   await page.getByRole('option', { name: 'Search Document Types "retrenchment" in Document Types' }).click();
   await page.getByRole('link', { name: 'Retrenchment Letter' }).click();
-  await page.getByText('Status*New').click();
-  await page.getByRole('option', { name: 'Verified' }).click();
+  await page.getByRole('button', { name: 'New', exact: true }).click();
+  await page.getByRole('menuitemradio', { name: 'Verified' }).click();
   await page.getByRole('button', { name: 'Save', exact: true }).click();
   await page.getByRole('button', { name: 'Close Retrenchment Letter' }).click();
   await page.waitForTimeout(4000);
@@ -73,42 +67,25 @@ await page.getByRole('button', { name: 'Edit Document Type' }).click();
   await page.getByRole('tab', { name: 'Claim Event' }).click();
   await page.getByRole('button', { name: 'Edit Event Date' }).click();
   await page.getByLabel('Event Date').click();
-  await page.getByLabel('Event Date').fill(process.env.DISA_DATE);
+  await page.getByRole('button', { name: '19' }).click();
   await page.getByLabel('Last Working Date').click();
-  await page.getByLabel('Last Working Date').fill(process.env.DISA_DATE);
+  await page.getByLabel('2024-05-11').getByRole('button', { name: '11' }).click();
   await page.getByRole('button', { name: 'Save' }).click();
   
   await page.getByRole('tab', { name: 'Details' }).click();
   await page.getByRole('button', { name: 'Edit Sub Type Reason' }).click();
-  await page.getByRole('combobox', { name: 'Sub Type Reason' }).click();;
+  await page.getByLabel('Sub Type Reason - Current Selection: --None--').click();
   await page.getByRole('option', { name: 'New technology' }).click();
   await page.getByRole('button', { name: 'Save' }).click();
   await page.waitForTimeout(3000);
-
-  await page.getByRole('button', { name: 'Omni-Channel (Offline)' }).click();
-  await page.getByRole('button', { name: 'Change your Omni-Channel status' }).click();
-  await page.getByRole('menuitem', { name: 'Available' }).click();
-  await page.getByRole('button', { name: 'Change Owner' }).click();
-  await page.getByPlaceholder('Search Users...').click();
-  await page.getByPlaceholder('Search Users...').fill('bu');
-  await page.getByRole('option', { name: 'User Claims Administrator' }).click();//claims admin
-  await page.getByRole('button', { name: 'Change Owner' }).click();
-
-  await page.getByRole('button', { name: 'Get Obligations' }).click();
-  await page.getByRole('button', { name: 'Finish' }).click();
-  await page.getByRole('tab', { name: 'Obligations' }).click();
-
   await page.getByRole('button', { name: 'Lodge' }).click();
   await page.waitForTimeout(3000);
   await page.getByText('Confirm', { exact: true }).click();
   await page.waitForTimeout(3000);
-
-  await page.reload();
-
   await page.getByRole('button', { name: 'Event Approval' }).click();
-  await page.getByText('Yes').click();
-  await page.getByRole('button', { name: 'Finish' }).click();
-
+  await page.waitForTimeout(3000);
+  await page.getByText('Yes', { exact: true }).click();
+  await page.waitForTimeout(3000);
 
 console.log("Success Message: Case Lodged");
 
@@ -127,4 +104,3 @@ await browser.close();
 
 
 })();
-
